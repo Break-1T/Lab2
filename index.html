@@ -1,86 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab2 (CV in HTML)</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
+
 <body>
-    <table border="1">
-        <tbody>
-            <tr>
-                <!-- Информация в левом блоке резюме -->
-                <td>
-                    
-                    <img src="Pics/ya2.jpg" alt="Моё фото" width="300">
-                    <hr>
-                    <h2>Personal profile</h2>
-                    <p>Age: 19 <br>
-                        City: Kyiv <br>
-                        Phone: +380951397343 <br>
-                        Email: taras.krupko07@gmail.com <br>
-                        LinkedIn: <a href="https://linkedin.com/in/krupkotaras" target="_blank">linkedin.com/in/krupkotaras</a><br>
-                        GitHub: <a href="https://github.com/Break-1T" target="_blank">github.com/Break-1T</a>
-                    </p>
-                    <hr>
-                    <h2>Tech Skills</h2>
-                    <ul>
-                        <li>C#</li>
-                        <li>WPF</li>
-                        <li>Entity Framework</li>
-                        <li>MVVM</li>
-                        <li>OOP</li>
-                        <li>MS SQL (basic understanding)</li>
-                        <li>GIT</li>
-                    </ul>
-                    <hr>
-                    <h2>Soft skills</h2>
-                    <ul>
-                        <li>Teamwork</li>
-                        <li>Time management</li>
-                    </ul>
-                </td>
-                <!-- Информация в правом блоке резюме -->
-                <td>
-                    <h3>.Net Developer</h3>
-                    <h1>Krupko Taras</h1>
-                    <hr>
-                    <h2>About myself</h2>
-                    <p>I am a beginner .NET developer. Moderately sociable, constantly trying to develop in my field and ready to learn something new.
-                         I can communicate fluently in Russian and Ukrainian, and also speak English quite well at the level of reading and perception.
-                          I have experience with GIT. At the moment I am looking for a job to consolidate my knowledge and acquire new ones.</p>
-                    <hr>
-                    <h2>Education</h2>
-                    <p>Kiev National University of Trade and Economics, Software engineering.  2019-2023.</p>
-                    <hr>
-                    <h2>Languages</h2>
-                    <ul>
-                        <li>Ukrainian - fluently</li>
-                        <li>Russian - fluently</li>
-                        <li>English - intermediate</li>
-                    </ul>
-                    <hr>
-                    <h2>Pet projects</h2>
-                    <ul>
-                        <li>StoreApp (.NET 5.0, WPF, Entity Framework, MVVM)
-                            StoreApp is an application for product and personnel management. There is a database that can be edited by the administrator through the graphical interface.
-                            </li>
-                        <li>Calculation_of_penalties (.NET 3.1, WPF, MVVM)
-                            Coursework for calculating penalties for unpaid court decisions. The software provides the user with the ability to calculate the amount of alimony for a certain period. It is possible to save and load intermediate calculations, as well as output data to an Excel file.
-                            </li>
-                    </ul>
-                    <hr>
-                    <h2>I can do</h2>
-                    <ul>
-                        <li> <a href="List.html">List</a></li>
-                        <li> <a href="table.html">Table</a></li>
-                        <li> <a href="form.html">Form</a></li>
-                        <li> <a href="presentation.html">Presentation</a></li>
-                    </ul>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="Main">
+        <div class="LeftInfo">
+
+            <img src="Pics/ya2.jpg" alt="Моё фото">
+
+            <div class="PersonalProfile">
+                <h2>Personal profile</h2>
+                <p>Age: 19 <br> City: Kyiv <br> Phone: +380951397343 <br> Email: taras.krupko07@gmail.com <br> LinkedIn: <a href="https://linkedin.com/in/krupkotaras" target="_blank">linkedin.com/in/krupkotaras</a><br> GitHub: <a href="https://github.com/Break-1T"
+                        target="_blank">github.com/Break-1T</a>
+                </p>
+            </div>
+            <div class="TechSkills">
+                <h2>Tech Skills</h2>
+                <ul>
+                    <li>C#</li>
+                    <li>WPF</li>
+                    <li>Entity Framework</li>
+                    <li>MVVM</li>
+                    <li>OOP</li>
+                    <li>MS SQL (basic understanding)</li>
+                    <li>GIT</li>
+                </ul>
+            </div>
+            <div class="SoftSkills">
+                <h2>Soft skills</h2>
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Time management</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Информация в левом блоке резюме -->
+        <div class="RightInfo">
+            <h3>.Net Developer</h3>
+            <h1>Krupko Taras</h1>
+            <hr>
+            <h2>About myself</h2>
+            <p>I am a beginner .NET developer. Moderately sociable, constantly trying to develop in my field and ready to learn something new. I can communicate fluently in Russian and Ukrainian, and also speak English quite well at the level of reading
+                and perception. I have experience with GIT. At the moment I am looking for a job to consolidate my knowledge and acquire new ones.</p>
+            <hr>
+            <h2>Education</h2>
+            <p>Kiev National University of Trade and Economics, Software engineering. 2019-2023.</p>
+            <hr>
+            <h2>Languages</h2>
+            <ul>
+                <li>Ukrainian - fluently</li>
+                <li>Russian - fluently</li>
+                <li>English - intermediate</li>
+            </ul>
+            <hr>
+            <h2>Pet projects</h2>
+            <ul>
+                <li>StoreApp (.NET 5.0, WPF, Entity Framework, MVVM) StoreApp is an application for product and personnel management. There is a database that can be edited by the administrator through the graphical interface.
+                </li>
+                <li>Calculation_of_penalties (.NET 3.1, WPF, MVVM) Coursework for calculating penalties for unpaid court decisions. The software provides the user with the ability to calculate the amount of alimony for a certain period. It is possible to
+                    save and load intermediate calculations, as well as output data to an Excel file.
+                </li>
+            </ul>
+            <hr>
+            <h2>I can do</h2>
+            <ul>
+                <li> <a href="List.html">List</a></li>
+                <li> <a href="table.html">Table</a></li>
+                <li> <a href="form.html">Form</a></li>
+                <li> <a href="presentation.html">Presentation</a></li>
+            </ul>
+            </td>
+        </div>
+    </div>
+    <!-- Информация в правом блоке резюме -->
 </body>
+
 </html>
