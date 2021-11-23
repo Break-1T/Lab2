@@ -1,4 +1,9 @@
 @import url('//fonts.googleapis.com/css?family=Radley');
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #f1f1f1;
     font-family: Radley;
@@ -10,6 +15,7 @@ body {
     display: flex;
     orientation: portrait;
     width: 763px;
+    height: 900px;
     background-color: whitesmoke;
     margin: 0px auto;
 }
@@ -55,6 +61,7 @@ h2 {
 }
 
 .TechSkills {
+    margin-top: 13px;
     margin-left: 20px;
 }
 
@@ -68,12 +75,71 @@ ul {
 }
 
 .SoftSkills {
+    margin-top: 13px;
     margin-left: 20px;
 }
 
 .RightInfo {
     width: 485px;
-    flex-direction: column;
+    padding: 15px;
+}
+
+.RightInfo h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 12.4px;
+}
+
+.RightInfo h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 35px;
+}
+
+.RightInfo h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+.RightInfo p {
+    margin-bottom: 25px;
+}
+
+.Languages ul {
+    padding: 0 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.PetProjects ul {
+    padding: 0 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.ICanDo ul {
+    padding: 0 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
 }
 
 ._center {
